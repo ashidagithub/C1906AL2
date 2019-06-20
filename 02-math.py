@@ -1,6 +1,6 @@
 # -*- coding: UTF-8 -*-
 
-# Filename : 03-triangle.py
+# Filename : 02-math.py
 # author by : （学员ID)
 
 # 目的:
