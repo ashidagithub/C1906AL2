@@ -6,6 +6,7 @@
 # 目的:
 # 掌握使用 if 语句
 
+# 练习一
 # 简单 if 语句
 num = float(input("输入一个数字: "))
 if num>0:
@@ -13,6 +14,7 @@ if num>0:
 else:
     print("负数")
 
+# 练习二
 # 内嵌 if 语句
 num = float(input("输入一个数字: "))
 if num >= 0:
@@ -23,17 +25,18 @@ if num >= 0:
 else:
    print("负数")
 
+# 练习三 （优化效率）
 # elif 的使用
 # 用户输入数字
 num = float(input("输入一个数字: "))
 if num > 0:
    print("正数")
-elif num == 0:
-   print("零")
-else:
+elif num < 0:
    print("负数")
+else:
+   print("零")
 
-
+# 练习三
 # Python 判断奇数偶数
 # 如果是偶数除于 2 余数为 0
 # 如果余数为 1 则为奇数
@@ -46,6 +49,7 @@ else:
     print("%d 是奇数" % num)
     # print("{0} 是奇数".format(num))
 
+# 练习四
 # 判断是否为闰年
 # 闰年条件：闰年条件, 满足年份模400为0, 或者模4为0但模100不为0.
 year = int(input("输入一个年份: "))
@@ -60,6 +64,7 @@ if (year % 4) == 0:
 else:
     print("{0} 不是闰年".format(year))
 
+# 练习五
 # 判断输入的三个数字是否为正常的三角形三边长
 #   如果是则计算其面积
 #   如果否则输出错误信息

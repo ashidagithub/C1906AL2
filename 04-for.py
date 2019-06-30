@@ -6,12 +6,13 @@
 # 目的:
 # 掌握使用for语句
 
+# 练习一
 # 最简单的 for
 for i in range(1, 10, 2) :
     print(i)
 
-
-# 输出指定范围内的素数
+# 练习二
+# 输出指定范围内的整数
 # take input from the user
 print("-----华丽分割线-----")
 print("输出指定范围内所有整数：")
@@ -20,7 +21,7 @@ upper = int(input("输入区间最大值: "))
 for num in range(lower, upper + 1):
     print(num)
 
-
+# 练习三（难）
 # 输出指定范围内的素数
 # take input from the user
 print("-----华丽分割线-----")
