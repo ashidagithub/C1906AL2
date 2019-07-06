@@ -20,3 +20,33 @@ lower = int(input("输入区间最小值: "))
 upper = int(input("输入区间最大值: "))
 for num in range(lower, upper + 1):
     print(num)
+
+练习三
+# for 的基本结构
+
+for i in range(1,10):
+    # --- for body begin
+    pass
+    # --- for body end
+
+
+for j in range(1,10):
+    # --- for body begin
+    print('No. %d times...' % (j) )
+    # --- for body end
+
+# 练习四
+times = 3
+for x in range(1,times):
+    # --- for body begin
+    print('x-No. %d times...' % (x) )
+    for y in range(1,times):
+        # --- for body begin
+        print('\ty-No. %d times...' % (y) )
+        for z in range(1,times):
+            # --- for body begin
+            print('\t\tz-No. %d times...' % (z  ) )
+            print('\t\t\tx-y-z = %d-%d-%d ' % (x,y,z))
+            # --- for body end
+        # --- for body end
+    # --- for body end
